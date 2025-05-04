@@ -1,0 +1,6 @@
+# requirements.txt
+
+keras==2.14.0
+tensorflow==2.14.0
+opencv-python==4.10.0
+numpy==1.26.4
