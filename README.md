@@ -49,7 +49,7 @@ from King Mongkut's University of Technology Thonburi (KMUTT) academic year 2024
 6. The program is now running
    - To exit the application, press the ESC key
 
-## Quick Start (After Initial Setup)
+## Start (After Initial Setup)
 
 1. Run the application
    ```
