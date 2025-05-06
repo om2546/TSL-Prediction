@@ -171,6 +171,7 @@ def activate_webcam():
         return
     
     print("Webcam activated")
+    print("Press ESC to exit")
     with mp_holistic.Holistic(min_detection_confidence=0.5, min_tracking_confidence=0.5) as holistic:
         while running and cap.isOpened():
             success, image = cap.read()
@@ -253,11 +254,8 @@ def predict():
 
         if len(frame_queue) >= 1 and (frame_queue[-1][-1] - frame_queue[0][-1]) >= 3:
             input_data = np.array(frame_queue)
-            # Get Last 3 seconds data
-            np.savetxt("input.csv", input_data, delimiter=",")      
-            with open('log.txt', 'a') as f:
-                f.write("data_shape: " + str(input_data.shape) + "\n")
             
+            # Get Last 3 seconds data
             input_data = get_last_n_sec_data(input_data)
             test_data = np.empty(shape=(1, 75, 134))
             test_data[0] = interpolate_data(input_data)
