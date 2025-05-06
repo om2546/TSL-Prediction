@@ -4,8 +4,11 @@ Thai Sign Language Prediction using computer vision.
 
 ## Project Information
 
-This project is a part of COMPUTER ENGINEERING PROJECT (CPE401&CPE402)  
-from King Mongkut's University of Technology Thonburi (KMUTT) academic year 2024
+This project is developed as a capstone project for:
+
+**Course:** COMPUTER ENGINEERING PROJECT (CPE401 & CPE402)  
+**Institution:** King Mongkut's University of Technology Thonburi (KMUTT)  
+**Academic Year:** 2024
 
 ### Team Members
 - Mr. Chayarob Chantrapiwat
